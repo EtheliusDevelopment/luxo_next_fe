@@ -1,0 +1,50 @@
+.NavBar {
+    width: 100vw;
+    height: 5rem;
+    position: fixed;
+    top: 0;
+    background: #80005926;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .Navigation {
+    display: flex;
+    /* flex-direction: row; */
+    height: 3rem;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+    width: 60vw;
+    border: 2px solid black;
+    
+  }
+  
+  
+  .Logo{
+    border: 2px solid red !important;
+    /* flex-grow: 1; */
+  }
+
+  .MenuIcon {
+    border: 2px solid red !important; 
+    color:white;
+    /* margin-left: 4rem; */
+    display: none !important;
+      
+  }
+
+  @media (max-width: 600px) { 
+
+    .MenuIcon {
+        display: block !important;
+        cursor: pointer;
+    }
+
+    .Navigation {
+        display: none;
+        flex-direction: column;
+    }
+
+  }

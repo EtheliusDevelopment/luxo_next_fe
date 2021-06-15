@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
-import Footer from '../components/Footer'
-import NavBar from '../components/NavBar';
+import Footer from '../components/layout/Footer'
+import NavBar from '../components/layout/NavBar';
 import styles from '../styles/Home.module.css'
 
 // configurazione i18n
