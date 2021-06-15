@@ -51,7 +51,7 @@ const handleLanguageToogle = () =>{
     <br/>
     <h3>Language Test</h3>
 
-      <p onClick={handleLanguageToogle}>
+      <p onClick={handleLanguageToogle} style={{cursor:'pointer'}}>
       {locale}
       </p>
     
