@@ -13,7 +13,7 @@ const NavBar = () => {
         
         <AppBar position="fixed" color="primary">
           <Toolbar>
-                <AirplanemodeActiveRoundedIcon style={{flexGrow: '1'}} color='secondary'/>
+                <AirplanemodeActiveRoundedIcon style={{flexGrow: '1'}} color='default'/>
             <Typography variant="h6">
                 LUXO AppBAR TEST
             </Typography>
