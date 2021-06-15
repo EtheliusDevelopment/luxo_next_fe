@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import Footer from '../components/Footer'
+import NavBar from '../components/NavBar';
 import styles from '../styles/Home.module.css'
 
 // configurazione i18n
@@ -42,6 +43,8 @@ const handleLanguageToogle = () =>{
 
 // fine configurazione i18n    
   return (
+    <>
+    <NavBar />
     <div className={styles.container}>
     
     <h1>Luxo Tour Operator</h1>
@@ -56,7 +59,9 @@ const handleLanguageToogle = () =>{
     <br/>
     <a href="/home">Home</a>
 
-    <Footer/>
+   
     </div>
+    <Footer/>
+    </>
   )
 }
