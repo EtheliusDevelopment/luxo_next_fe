@@ -6,6 +6,10 @@ export default function Home() {
   return (
     <div className={styles.container}>
     
+    <h1>Luxo Tour Operator</h1>
+    <br/>
+    <br/>
+    <a href="/home">Home</a>
 
       <footer className={styles.footer}>
         <a
