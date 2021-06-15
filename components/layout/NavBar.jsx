@@ -11,27 +11,27 @@ import MenuIcon from '@material-ui/icons/Menu';
 
 
 const toogleNav = () => {
-    ;
-    var x = document.getElementById('Navigation');
-        if (x.style.display === "none") {
 
-             x.style.display = "block";
-        } 
-        else {
+    const element = document.getElementById('Navigation');
+    element.classList.toggle("ToggleStyle");
 
-            x.style.display = "none";
-        }
-}
+    }
 
 // const useStyles = makeStyles
 const NavBar = () => {
     return (
 
     <header className={styles.NavBar} id="NavBar">
+       
         <Logo />
+
         <Navigation />
-         {/* Gadgets */}
+                
+                {/* Gadgets */}
+         {/* SwitchLanguageFlag */}
         <MenuIcon className={styles.MenuIcon} style={{ fontSize: 50 }} onClick={toogleNav}/>
+    
+    
     </header>
 
 

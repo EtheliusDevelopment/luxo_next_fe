@@ -35,7 +35,7 @@
       
   }
 
-  @media (max-width: 600px) { 
+    @media only screen and (max-width: 800px) {
 
     .MenuIcon {
         display: block !important;
@@ -46,5 +46,7 @@
         display: none;
         flex-direction: column;
     }
+
+    
 
   }
