@@ -1,6 +1,10 @@
 import React from 'react'
 import styles from '../../styles/NavBar.module.css';
 
+
+// next/link per ogni li
+// Testo traducibile
+
 const Navigation = () => {
     return (
         <>

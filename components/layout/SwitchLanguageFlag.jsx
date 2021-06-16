@@ -7,7 +7,7 @@ const SwitchLanguageFlag = () => {
             {/* creare select con le varie opzioni */}
             {/* VIew DeskTop */}
             {/* VIew Mobile */}
-            <h1>Ciao</h1>
+            <h1 style={{color:'white'}}>Ciao</h1>
         </div>
     )
 }
