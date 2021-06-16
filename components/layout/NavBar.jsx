@@ -8,6 +8,7 @@ import Navigation from './Navigation'
 import styles from '../../styles/NavBar.module.css';
 import Logo from './Logo';
 import MenuIcon from '@material-ui/icons/Menu';
+import SwitchLanguageFlag from './SwitchLanguageFlag';
 
 
 const toogleNav = () => {
@@ -27,8 +28,10 @@ const NavBar = () => {
 
         <Navigation />
                 
-                {/* Gadgets */}
+                {/* Widgets */}
          {/* SwitchLanguageFlag */}
+        <SwitchLanguageFlag />
+         {/* MobileHamburger */}
         <MenuIcon className={styles.MenuIcon} style={{ fontSize: 50 }} onClick={toogleNav}/>
     
     
